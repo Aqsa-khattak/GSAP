@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: black;
+}
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(160, 133, 100);
+    margin: 20px;
+}
+#box2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(116, 135, 219);
+    margin: 20px;
+}
+#box3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(169, 219, 116);
+    margin: 20px;
+}
+h1{
+    margin: 15px;
+}
