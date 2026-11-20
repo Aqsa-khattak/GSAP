@@ -36,17 +36,17 @@ breakTheText()
 // })
 gsap.from("h1 .a",{
     y:50,
-    duartion:1.5,
+    duration:1.5,
     delay:0.5,
-    stagger:0.15,
+    stagger:0.15,  //quke stagger positive (0.15) ha islye yh left se center ki trf ayga: phle s, phir h, phir e, phir r.
     opacity:0
 })
 
 gsap.from("h1 .b",{
     y:50,
-    duartion:1.5,
+    duration:1.5,
     delay:0.5,
-    stagger:-0.15,
+    stagger:-0.15,  //quke stagger negative (-0.15) ha islye yh ulta (right se center ki trf) chlga: phle akhri s, phir n, phir a, phir i, aur aakhir mein beech wala y!
     opacity:0
 })
 
